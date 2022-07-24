@@ -2,6 +2,9 @@
 
 @import 'components/_color'    
 @import 'components/_message'    
+@import 'components/_navbar'  
+
+@import 'pages/_loginRegister'      
 
 body
     background-color: $body-background
@@ -12,26 +15,6 @@ body
     background: #fff 
     border-radius: 10px   
     padding: 0!important
-
-.nav-bar
-    border-bottom: 1px solid $theme-border-color    
-    display: inline-flex
-    width: 100%
-    h1
-        font-size: 1.4rem
-        padding: 20px
-        margin: 0
-        font-weight: 500
-        width: 100%
-    span
-        font-size: 1.5rem
-        cursor: pointer
-        color: $theme-border-color
-        &:hover
-            color: red
-        i
-            vertical-align: super
-            padding: 20px    
 
 .message-body
     height: 450px  

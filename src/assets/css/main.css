@@ -1,16 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-body {
-  background-color: #eef0f1 !important;
-  font-family: "Poppins", sans-serif !important;
-}
-
-.main {
-  margin-top: 50px !important;
-  background: #fff;
-  border-radius: 10px;
-  padding: 0 !important;
-}
-
 .nav-bar {
   border-bottom: 1px solid #ddd;
   display: -webkit-inline-box;
@@ -40,6 +28,73 @@ body {
 .nav-bar span i {
   vertical-align: super;
   padding: 20px;
+}
+
+.pan-form {
+  text-align: center;
+  padding: 20px;
+}
+
+.pan-form h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.pan-form form {
+  margin-top: 30px;
+}
+
+.pan-form form .form-group {
+  text-align: left;
+}
+
+.pan-form form .form-group label {
+  padding: 5px;
+  font-weight: 600;
+}
+
+.pan-form form input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.pan-form form button {
+  width: 100%;
+  border: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 3px solid #48b0f7;
+  font-weight: 500;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.pan-form form button:hover {
+  background-color: #48b0f7;
+}
+
+.pan-form form span {
+  margin: 10px 0;
+  display: block;
+}
+
+body {
+  background-color: #eef0f1 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.main {
+  margin-top: 50px !important;
+  background: #fff;
+  border-radius: 10px;
+  padding: 0 !important;
 }
 
 .message-body {
